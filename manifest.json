@@ -1,0 +1,18 @@
+{
+    "manifest_version":3,
+    "name":"helloWorld",
+    "version":"1.0",
+    "description":"hello world 插件",
+    "icons":{
+        "128":"img/chrome-logo.png",
+        "48":"img/chrome-logo.png",
+        "16":"img/chrome-logo.png"
+    },
+    "action":{
+        "default_icon":"img/chrome-logo.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":[
+        "storage"
+    ]
+}
